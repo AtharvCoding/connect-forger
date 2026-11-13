@@ -1,0 +1,20 @@
+{
+  "name": "connect-forger",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Connect Forger — a Spy x Family fan-made four-in-a-row game.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "sprites": "node scripts/prepare-sprites.mjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vitest": "^4.1.12"
+  }
+}
